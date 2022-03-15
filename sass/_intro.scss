@@ -1,0 +1,37 @@
+.intro {
+  margin-bottom: 100px;
+  &-container {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 37px 0px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 42px 114px 0 rgba(13, 16, 37, 0.064);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-height: 126px;
+  }
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 36.5px;
+  }
+  &-item:nth-child(2) {
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+  }
+  &-icon {
+    margin-top: 8px;
+  }
+  &-title {
+    margin: 5px 0px;
+    font-size: 25px;
+    line-height: calc(30 / 25);
+  }
+  &-text {
+    line-height: calc(30 / 20);
+    font-size: 20px;
+  }
+}
